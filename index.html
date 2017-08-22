@@ -245,6 +245,18 @@
             margin-left: -29%!important;
             top: 52%!important;
         }
+        
+        .yinyue {
+            position: absolute;
+            right: 10px;
+            top: 0;
+            z-index: 3;
+        }
+        
+        .yinyue audio {
+            width: 0;
+            height: 0;
+        }
     </style>
 </head>
 
@@ -253,10 +265,13 @@
         <div class="nav-box">
             <a href="#"><i class="iconfont">&#xe600;</i></a>
             <span>全身塑性(1-14)</span>
-            <audio controls="controls" autoplay="autoplay">
-                <source src="images/mi.mp3"  type="audio/mpeg">
-              您的浏览器不支持 audio 元素。
-              </audio>
+            <div class="yinyue">
+                <audio controls="controls" autoplay="autoplay">
+                    <source src="images/mi.mp3"  type="audio/mpeg">
+                  您的浏览器不支持 audio 元素。
+                </audio> 音乐
+            </div>
+
 
         </div>
     </nav>
@@ -591,6 +606,11 @@
                 $(".show .img-box img").eq(0).addClass("xian").siblings().removeClass("xian")
             }
         }
+        // $('.yinyue').click(function() {
+        //     // console.log(o)
+        //     $('video').tigger('play');
+        //     $('video').tigger('pause');
+        // })
     </script>
 </body>
 
