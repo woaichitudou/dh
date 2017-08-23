@@ -241,6 +241,24 @@
     </div>
     <script src="js/chujiduanlian.js">
     </script>
+    <script>
+        function autoPlayAudio1() {
+            console.log("1")
+            wx.config({
+                // 配置信息, 即使不正确也能使用 wx.ready
+                debug: false,
+                appId: '',
+                timestamp: 1,
+                nonceStr: '',
+                signature: '',
+                jsApiList: []
+            });
+            wx.ready(function() {
+                document.getElementById('player').play();
+            });
+        }
+        autoPlayAudio1();
+    </script>
 </body>
 
 
