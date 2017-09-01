@@ -18,6 +18,8 @@ nav {
     line-height: 400px;
     font-size: 18px;
     color: #333;
+    top: 0;
+    left: 0;
 }
 
 .nav-box {
