@@ -50,6 +50,7 @@
             开始锻炼
         </div>
     </a>
+    <div class="loading">Loading</div>
     <script src="js/fubuchu.js"></script>
     <script>
         $(".tab-box-offspring").click(function() {
@@ -69,6 +70,11 @@
             }
             $("#jb51").attr("href", href);
         })
+    </script>
+    <script>
+        window.onload = function() {
+            $(".loading").fadeOut();
+        }
     </script>
 </body>
 

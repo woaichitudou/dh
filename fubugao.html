@@ -252,6 +252,7 @@
     <div class="bt">
 
     </div>
+    <div class="loading">Loading</div>
     <script src="js/gaoji.js">
     </script>
     <script>
@@ -271,6 +272,11 @@
             });
         }
         autoPlayAudio1();
+    </script>
+    <script>
+        window.onload = function() {
+            $(".loading").fadeOut();
+        }
     </script>
 </body>
 
