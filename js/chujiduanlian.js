@@ -5,13 +5,13 @@ var time = 30; //定义时间
 $(".content-box").eq(0).addClass("show").siblings(".content-box").removeClass("show");
 
 $(".content").css("width", width * lenght)
-$(".content").css("height", height - 40)
+$(".content").css("height", height - 68)
 
 $(".content-box ").css("width", width)
-$(".content-box ").css("height", height - 40)
+$(".content-box ").css("height", height - 68)
 
 $(".box ").css("width", width)
-$(".box ").css("height", height - 40)
+$(".box ").css("height", height - 68)
 
 
 for (var i = 0; i < lenght; i++) {
@@ -38,9 +38,7 @@ function ks() {
 //动画
 function dh() {
     var i = $(".show .xian").index()
-    console.log(i)
     var n = $(".show .img-box img").length;
-    console.log(n)
     i++;
     if (i == n) {
         i = 0;

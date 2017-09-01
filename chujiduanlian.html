@@ -13,16 +13,17 @@
 </head>
 
 <body>
+    <div class="tc"></div>
     <nav>
         <div class="nav-box">
-            <a href="#"><i class="iconfont">&#xe600;</i></a>
+            <a href="javascript:;" onclick="window.history.go(-1);"><i class="iconfont">&#xe600;</i></a>
             <span>初级锻炼(1-15)</span>
-            <div class="yinyue" onclick="playMusic()">
-                <audio controls="controls" autoplay="autoplay" id="player">
+            <!-- <div class="yinyue" onclick="playMusic()">
+                <audio controls="controls" autoplay="autoplay" id="player" preload controls>
                     <source src="images/mi.mp3"  type="audio/mpeg">
-                  您的浏览器不支持 audio 元素。
+                        您的浏览器不支持 audio 元素。
                 </audio> 音乐
-            </div>
+            </div> -->
         </div>
     </nav>
     <div class="box">
@@ -243,7 +244,7 @@
     </script>
     <script>
         function autoPlayAudio1() {
-            console.log("1")
+            // console.log("1")
             wx.config({
                 // 配置信息, 即使不正确也能使用 wx.ready
                 debug: false,

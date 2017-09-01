@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./font_384283_0dk2r86x2ovo0f6r/iconfont.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style1.css">
+    <script src="js/jquery.js"></script>
+</head>
+
+<body>
+    <div class="tc"></div>
+    <nav>
+        <div class="nav-box">
+            <a href="#" onclick="window.history.go(-1);"><i class="iconfont">&#xe600;</i></a>
+            <span>初级锻炼(1-4)</span>
+            <!-- <div class="yinyue" onclick="playMusic()">
+                <audio controls="controls" autoplay="autoplay" id="player" preload controls>
+                    <source src="images/mi.mp3"  type="audio/mpeg">
+                        您的浏览器不支持 audio 元素。
+                </audio> 音乐
+            </div> -->
+        </div>
+    </nav>
+    <div class="box">
+        <div class="content">
+            <div class="content-box">
+                <i class="iconfont cli">&#xe623;</i>
+                <div class="test">
+                    <time>30</time>
+                    <div class="img-box">
+                        <img src="chujiimg/images4/01.png" alt="" class="xian">
+                        <img src="chujiimg/images4/02.png" alt="">
+                    </div>
+                    <h3>卷腹</h3>
+                    <p>
+                        卷腹：平躺于地板上，弯曲膝盖，抬起你的背部离开地面，主要是锻炼斜腹肌和侧腹直肌。
+                    </p>
+                </div>
+            </div>
+            <div class="content-box">
+                <i class="iconfont cli">&#xe623;</i>
+                <div class="test">
+                    <time>30</time>
+                    <div class="img-box">
+                        <img src="quanshenimg/images6/01.png" alt="" class="xian">
+                        <img src="quanshenimg/images6/02.png" alt="">
+                    </div>
+                    <h3>仰卧起坐</h3>
+                    <p>
+                        仰卧起坐：仰卧，双手抱头，上体尽可能向前屈，然后慢慢躺下，不断重复此动作。
+                    </p>
+                </div>
+            </div>
+            <div class="content-box">
+                <i class="iconfont cli">&#xe623;</i>
+                <div class="test">
+                    <time>30</time>
+                    <div class="img-box xiu4">
+                        <img src="chujiimg/images5/1 (2).png" alt="" class="xian">
+                    </div>
+                    <h3>平板支撑</h3>
+                    <p>
+                        平板支撑：保持一个俯卧撑的姿势，前臂弯曲垂直于地面，使身体的重量落在前臂，肘部和脚尖接触地面，这组动作的目的主要是锻练腹部、背部、肩部的肌肉。</p>
+                </div>
+            </div>
+            <div class="content-box">
+                <i class="iconfont cli">&#xe623;</i>
+                <div class="test">
+                    <time>30</time>
+                    <div class="img-box">
+                        <img src="chujiimg/images17/01 (2).png" alt="" class="xian">
+                        <img src="chujiimg/images17/02 (2).png" alt="">
+                    </div>
+                    <h3>仰卧举腿</h3>
+                    <p>
+                        仰卧举腿：仰卧，双手放于身体两侧作为支撑，双腿向上抬起直到与地面垂直，慢慢放下双腿，并重复这一动作</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="btn">
+        <i class="iconfont left">&#xe633;</i>
+        <i class="iconfont right">&#xe633;</i>
+    </div>
+    <div class="bt">
+
+    </div>
+    <script src="js/fubuchu.js">
+    </script>
+    <script>
+        function autoPlayAudio1() {
+            // console.log("1")
+            wx.config({
+                // 配置信息, 即使不正确也能使用 wx.ready
+                debug: false,
+                appId: '',
+                timestamp: 1,
+                nonceStr: '',
+                signature: '',
+                jsApiList: []
+            });
+            wx.ready(function() {
+                document.getElementById('player').play();
+            });
+        }
+        autoPlayAudio1();
+    </script>
+</body>
+
+
+</html>

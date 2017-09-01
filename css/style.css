@@ -1,0 +1,80 @@
+body {
+    background: #f5f5f5;
+}
+
+.tc {
+    background: #fff;
+}
+
+.tab {
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px 0;
+    margin-top: 50px;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0px 1px 1px #888;
+}
+
+.tab-title {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.tab-title img {
+    display: block;
+    width: 40px;
+    float: left;
+    height: 40px;
+    margin-right: 11px;
+}
+
+.tab-title h3 {
+    color: #666f73;
+    font-size: 14px;
+    font-family: Noto Sans S Chinese;
+}
+
+.tab-box {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.tab-box-offspring {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.tab-box-offspring img {
+    width: 85px;
+    height: 85px;
+    display: block;
+    margin: 0 auto;
+}
+
+.tab-box-offspring p {
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    margin: 16px 0;
+}
+
+.activef {
+    color: red!important;
+}
+
+.start {
+    width: 90%;
+    height: 45px;
+    background: red;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 45px;
+}
