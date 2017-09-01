@@ -79,3 +79,8 @@ body {
     margin-top: 45px;
     margin-bottom: 60px;
 }
+
+.tc {
+    height: 60px;
+    width: 100%;
+}
